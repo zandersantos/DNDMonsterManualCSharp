@@ -14,7 +14,7 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
 
         //Navigation Properties
         public Monster Monster { get; set; }
-        public Action Action { get; set; }
+        public ActionDetail ActionDetail { get; set; }
 
     }
 }
