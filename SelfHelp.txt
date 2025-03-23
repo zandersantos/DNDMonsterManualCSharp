@@ -6,3 +6,6 @@ C# uses Entity Framework Core so it must be installed
 = Install-Package Microsoft.EntityFrameworkCore
 = Install-Package Microsoft.EntityFrameworkCore.SqlServer
 = Install-Package Microsoft.EntityFrameworkCore.Tools
+
+Database:
+View => SQL Server Object Explorer => localdb => Databases => Dungeons... => Tables => dbo.Monster => Right click, View Designer
