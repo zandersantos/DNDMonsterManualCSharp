@@ -8,7 +8,8 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public int HitPoints { get; set; }
+        public int ArmourClass { get; set; }
+        public string  HitPoints { get; set; }
         public string HitDice { get; set; }
         public string ImageUrl { get; set; }
 
