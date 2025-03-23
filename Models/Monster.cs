@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System.Collections.Generic;
 
 namespace DungeonsAndDragonsMonsterManualCSharp.Models
 {

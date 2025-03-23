@@ -1,4 +1,6 @@
-﻿namespace DungeonsAndDragonsMonsterManualCSharp.Models
+﻿using System.Collections.Generic;
+
+namespace DungeonsAndDragonsMonsterManualCSharp.Models
 {
     public class MonsterAction
     {
