@@ -2,7 +2,7 @@
 
 namespace DungeonsAndDragonsMonsterManualCSharp.Models
 {
-    public class ActionDetail
+    public class Action
     {
         //Properties
         public int Id { get; set; }
