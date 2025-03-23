@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using DungeonsAndDragonsMonsterManualCSharp.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<DungeonsAndDragonsMonsterManualCSharpContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DungeonsAndDragonsMonsterManualCSharpContext") ?? throw new InvalidOperationException("Connection string 'DungeonsAndDragonsMonsterManualCSharpContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
