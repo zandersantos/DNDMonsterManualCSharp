@@ -56,6 +56,7 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,ArmourClass,HitPoints,HitDice,ImageUrl")] Monster monster)
         {
+
             if (ModelState.IsValid)
             {
                 _context.Add(monster);

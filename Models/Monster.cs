@@ -14,9 +14,10 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
         public string ImageUrl { get; set; }
 
         //Navigation Properties
+        /*
         public ICollection<MonsterAction> MonsterAction { get; set; }
         public ICollection<MonsterImage> MonsterImage { get; set; }
-        public ICollection<MonsterSense> MonsterSense { get; set; }
+        public ICollection<MonsterSense> MonsterSense { get; set; }*/
 
 
     }
