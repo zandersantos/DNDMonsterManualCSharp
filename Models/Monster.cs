@@ -13,6 +13,11 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
         public string HitDice { get; set; }
         public string ImageUrl { get; set; }
 
+        //Navigation Properties
+        public ICollection<MonsterAction> MonsterAction { get; set; }
+        public ICollection<MonsterImage> MonsterImage { get; set; }
+        public ICollection<MonsterSense> MonsterSense { get; set; }
+
 
     }
 }
