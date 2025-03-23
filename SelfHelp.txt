@@ -1,1 +1,8 @@
-﻿
+﻿This Text File will be used to documentate my program code.
+I will be documentating how I created the Project, and other helpful information.
+
+C# uses Entity Framework Core so it must be installed
+= (Tools > NuGet Package Manager > Package Manager Console)
+= Install-Package Microsoft.EntityFrameworkCore
+= Install-Package Microsoft.EntityFrameworkCore.SqlServer
+= Install-Package Microsoft.EntityFrameworkCore.Tools

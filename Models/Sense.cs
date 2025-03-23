@@ -2,5 +2,7 @@
 {
     public class Sense
     {
+        //Properties
+        public string SenseType { get; set; }
     }
 }
