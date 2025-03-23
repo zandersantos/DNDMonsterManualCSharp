@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using DungeonsAndDragonsMonsterManualCSharp.Data;
+using DungeonsAndDragonsMonsterManualCSharp.Models;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DungeonsAndDragonsMonsterManualCSharpContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DungeonsAndDragonsMonsterManualCSharpContext") ?? throw new InvalidOperationException("Connection string 'DungeonsAndDragonsMonsterManualCSharpContext' not found.")));
@@ -9,6 +10,13 @@ builder.Services.AddDbContext<DungeonsAndDragonsMonsterManualCSharpContext>(opti
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
