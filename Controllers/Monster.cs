@@ -5,9 +5,9 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
 {
     public class Monster : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "Default!";
+            return View();
         }
 
         public string Welcome(string name, int numTimes = 1)
