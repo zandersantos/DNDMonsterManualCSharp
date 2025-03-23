@@ -4,9 +4,15 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
 {
     public class Monster : Controller
     {
-        public IActionResult Index()
+        public string Index()
         {
-            return View();
+            return "Default!";
         }
+
+        public string Welcome()
+        {
+            return "Welcome Example";
+        }
+       
     }
 }
