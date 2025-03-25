@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

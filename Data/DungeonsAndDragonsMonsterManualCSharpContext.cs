@@ -15,6 +15,7 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Data
         }
 
         public DbSet<DungeonsAndDragonsMonsterManualCSharp.Models.Monster> Monster { get; set; } = default!;
+        public DbSet<DungeonsAndDragonsMonsterManualCSharp.Models.Action> Action { get; set; } = default!;
 
         /*
          * public DbSet<Monster> Monsters { get; set; }
