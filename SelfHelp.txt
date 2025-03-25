@@ -5,6 +5,7 @@ Resources I used to further Learn ASP.NET:
 - https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-9.0
 - https://www.w3schools.com/asp/default.asp
 - https://www.linkedin.com/learning-login/share?account=75841506&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-asp-dot-net-core-mvc-razor-pages-web-apis-other-foundations%3Ftrk%3Dshare_ent_url%26shareId%3DPeKsQ%252BkxS%252B%252BIGP2Zvz3kvg%253D%253D
+- https://www.linkedin.com/learning-login/share?account=75841506&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fselenium-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3DpVzU9SJCR3SVKa2jxoTsaQ%253D%253D
 
 C# uses Entity Framework Core so it must be installed
 = (Tools > NuGet Package Manager > Package Manager Console)

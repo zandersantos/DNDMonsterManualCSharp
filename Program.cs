@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using DungeonsAndDragonsMonsterManualCSharp.Data;
 using DungeonsAndDragonsMonsterManualCSharp.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DungeonsAndDragonsMonsterManualCSharpContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DungeonsAndDragonsMonsterManualCSharpContext") ?? throw new InvalidOperationException("Connection string 'DungeonsAndDragonsMonsterManualCSharpContext' not found.")));
@@ -38,3 +39,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
