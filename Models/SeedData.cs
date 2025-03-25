@@ -25,7 +25,6 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
                     new Monster
                     {
                         Name = "Example",
-                        Description = "Example",
                         ArmourClass = 2,
                         HitPoints = "1D3",
                         HitDice = "1D5",
