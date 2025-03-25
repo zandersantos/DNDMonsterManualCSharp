@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DungeonsAndDragonsMonsterManualCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b1fed5624f5f2bcc87d8814144b339ef0693212")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2aefafc5ec373657526a3a9e8920e3f9c2f380f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DungeonsAndDragonsMonsterManualCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DungeonsAndDragonsMonsterManualCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

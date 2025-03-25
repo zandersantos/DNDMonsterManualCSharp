@@ -3,6 +3,7 @@ using DungeonsAndDragonsMonsterManualCSharp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DungeonsAndDragonsMonsterManualCSharp.Migrations
 {
     [DbContext(typeof(DungeonsAndDragonsMonsterManualCSharpContext))]
-    partial class DungeonsAndDragonsMonsterManualCSharpContextModelSnapshot : ModelSnapshot
+    [Migration("20250325154822_MonsterImageUrlNowNullable")]
+    partial class MonsterImageUrlNowNullable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
