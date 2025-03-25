@@ -19,6 +19,8 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
                 {
                     return; 
                 }
+
+                var csvFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "monsters.csv");
                 context.Monster.AddRange(
                     new Monster
                     {
