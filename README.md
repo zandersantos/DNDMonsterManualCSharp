@@ -58,6 +58,19 @@ Monster_Image
   - url:string
   - monster_id:integer (FK)
 
+
+-- TABLES TO HOLD QUERY RESULTS --
+(ex. Holds the Action values and the total monsters that can use it - See Data Folder - )
+TopActionViewModel
+	- Id: Integer
+	- ActionName: String
+	- MonsterCount: Integer
+
+TopSenseViewModel
+	- Id: Integer
+	- SenseType: String
+	- MonsterCount: Integer
+
 ## Routes
 GET /             => Homepage
 GET /monsters     => Display a list of monsters
@@ -68,8 +81,7 @@ GET /actions       => Display a list of monster actions
 GET /actions/:id   => Display a single monster action
 GET /images       => Display a list of monster image
 GET /images/:id   => Display a single monster image
-GET /pages/:permalink  => Displays pages
-GET /search_all       => Display a search results page
+
 
 
 ## Controllers
@@ -80,5 +92,3 @@ ActionsController => index, show
 MonsterActionsController => index, show
 MonsterSensesController => index, show
 MonsterImagesController => index, show
-PagesController
-SearchController

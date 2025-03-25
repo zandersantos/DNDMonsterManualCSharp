@@ -19,6 +19,10 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                        <form asp-controller="Search" asp-action="Index" method="get" class="d-flex">
+                            <input type="text" name="query" class="form-control me-2" placeholder="Search for monsters, actions, or senses" />
+                            <button type="submit" class="btn btn-outline-success">Search</button>
+                        </form>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
