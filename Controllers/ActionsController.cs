@@ -54,7 +54,7 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Action action)
+        public async Task<IActionResult> Create([Bind("Id,Name")] DungeonsAndDragonsMonsterManualCSharp.Models.Action action)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Action action)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] DungeonsAndDragonsMonsterManualCSharp.Models.Action action)
         {
             if (id != action.Id)
             {
