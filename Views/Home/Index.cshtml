@@ -1,10 +1,47 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Home";
+    var topActions = ViewData["TopActions"] as IEnumerable<DungeonsAndDragonsMonsterManualCSharp.Models.TopActionViewModel>;
+    var topSenses = ViewData["TopSenses"] as IEnumerable<DungeonsAndDragonsMonsterManualCSharp.Models.TopSenseViewModel>;
 }
 
-<h2>Index</h2>
+<h2>Top 10 Most Used Monster Actions</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Action Name</th>
+            <th>Monster Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var action in topActions)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Actions" asp-action="Details" asp-route-id="@action.Id">@action.ActionName</a>
+                </td>
+                <td>@action.MonsterCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
 
-<p>View Template</p>
+<h2>Top 3 Most Used Senses</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sense Type</th>
+            <th>Monster Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sense in topSenses)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Senses" asp-action="Details" asp-route-id="@sense.Id">@sense.SenseType</a>
+                </td>
+                <td>@sense.MonsterCount</td>
+            </tr>
+        }
+    </tbody>
+</table>
