@@ -41,7 +41,7 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
             }
 
             // If nothing is found
-            return View("NoResults");
+            return View("NoResultsFound");
         }
     }
 }
