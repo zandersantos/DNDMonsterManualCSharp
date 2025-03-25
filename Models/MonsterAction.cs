@@ -7,7 +7,7 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
         //Properties
         public int Id { get; set; }
         public string Description { get; set; }
-        public string DamageType { get; set; }
+        public string? DamageType { get; set; }
         public string DamageDice { get; set; }
         public int MonsterId { get; set; }
         public int ActionId { get; set; }

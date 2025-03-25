@@ -21,4 +21,4 @@ DROP TABLE #TempAction;
 
 SELECT * FROM Action;
 DELETE FROM Action;
-DBCC CHECKIDENT ('Action', RESEED, 0);
+DBCC CHECKIDENT ('Action', RESEED, 1);
