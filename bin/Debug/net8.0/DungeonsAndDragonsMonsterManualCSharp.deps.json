@@ -18,7 +18,8 @@
           "Selenium.WebDriver": "4.30.0",
           "Selenium.WebDriver.ChromeDriver": "134.0.6998.16500",
           "SpecFlow": "3.9.74",
-          "SpecFlow.NUnit": "3.9.74"
+          "SpecFlow.NUnit": "3.9.74",
+          "SpecFlow.Tools.MsBuild.Generation": "3.9.74"
         },
         "runtime": {
           "DungeonsAndDragonsMonsterManualCSharp.dll": {}

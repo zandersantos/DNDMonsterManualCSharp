@@ -1,0 +1,187 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DungeonsAndDragonsMonsterManualCSharp
+build_property.RootNamespace = DungeonsAndDragonsMonsterManualCSharp
+build_property.ProjectDir = C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Actions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/ActionView/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uVmlld1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterActions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckFjdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterActions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckFjdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterActions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckFjdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterActions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckFjdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterActions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckFjdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterImages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckltYWdlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterImages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckltYWdlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterImages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckltYWdlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterImages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckltYWdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterImages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlckltYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterSenses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlclNlbnNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterSenses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlclNlbnNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterSenses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlclNlbnNlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterSenses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlclNlbnNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/MonsterSenses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlclNlbnNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Monsters/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Monsters/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Monsters/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Monsters/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Monsters/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Monster/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uc3RlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Senses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Senses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Senses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Senses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Senses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuc2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Shared/NoResultsFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vUmVzdWx0c0ZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/zainz/Desktop/DNDC\#/DungeonsAndDragonsMonsterManualCSharp/DungeonsAndDragonsMonsterManualCSharp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9egauj4irl
