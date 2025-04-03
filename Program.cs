@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using DungeonsAndDragonsMonsterManualCSharp.Data;
 using DungeonsAndDragonsMonsterManualCSharp.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DungeonsAndDragonsMonsterManualCSharpContext>(options =>
@@ -9,8 +10,15 @@ builder.Services.AddDbContext<DungeonsAndDragonsMonsterManualCSharpContext>(opti
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+
+//Identity Services
+builder.Services.AddDefaultIdentity<IdentityUser>()
+    .AddRoles<IdentityRole>() // Enables role-based authorization
+    .AddEntityFrameworkStores<DungeonsAndDragonsMonsterManualCSharpContext>();
 
 var app = builder.Build();
+
 
 using (var scope = app.Services.CreateScope())
 {
@@ -32,11 +40,14 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();
 
