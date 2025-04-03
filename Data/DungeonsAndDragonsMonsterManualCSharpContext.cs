@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using DungeonsAndDragonsMonsterManualCSharp.Models;
 
 namespace DungeonsAndDragonsMonsterManualCSharp.Data
 {
-    public class DungeonsAndDragonsMonsterManualCSharpContext : DbContext
+    public class DungeonsAndDragonsMonsterManualCSharpContext : IdentityDbContext<IdentityUser>
     {
         public DungeonsAndDragonsMonsterManualCSharpContext (DbContextOptions<DungeonsAndDragonsMonsterManualCSharpContext> options)
             : base(options)
