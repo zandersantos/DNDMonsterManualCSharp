@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using DungeonsAndDragonsMonsterManualCSharp.Data;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Linq;
 
@@ -14,7 +15,31 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<DungeonsAndDragonsMonsterManualCSharpContext>>()))
             {
-              
+                //Add in the Admin role and User role
+                var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+                var userManager = serviceProvider.GetRequiredService<UserManager<IdentityUser>>();
+
+                // Create Admin role if it doesn't exist
+                if (!roleManager.RoleExistsAsync("Admin").Result)
+                {
+                    roleManager.CreateAsync(new IdentityRole("Admin")).Wait();
+                }
+
+                // Create Admin user if it doesn't exist
+                var adminEmail = "admin@testing.com";
+                var adminUser = userManager.FindByEmailAsync(adminEmail).Result;
+                if (adminUser == null)
+                {
+                    adminUser = new IdentityUser
+                    {
+                        UserName = adminEmail,
+                        Email = adminEmail
+                    };
+
+                    userManager.CreateAsync(adminUser, "AdminPassword1");
+                    userManager.AddToRoleAsync(adminUser, "Admin");
+                }
+
                 if (context.Monster.Any())
                 {
                     return; 
