@@ -25,9 +25,6 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Migrations
             migrationBuilder.DropTable(
                 name: "Sense");
 
-            migrationBuilder.DropColumn(
-                name: "Description",
-                table: "Monster");
         }
 
         /// <inheritdoc />
