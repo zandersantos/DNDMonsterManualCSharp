@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using DungeonsAndDragonsMonsterManualCSharp.Data;
 using DungeonsAndDragonsMonsterManualCSharp.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Threading;
 
 namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
 {
@@ -33,14 +34,22 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
             {
                 return NotFound();
             }
-
-            var monster = await _context.Monster
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var monster = await _context.Monster.FirstOrDefaultAsync(m => m.Id == id);
             if (monster == null)
             {
                 return NotFound();
             }
+            // Retrieve actions associated with the monster
+            var monsterActions = await _context.MonsterAction
+                .Where(ma => ma.MonsterId == id)
+                .Select(ma => ma.Action)
+                .ToListAsync();
 
+            // Pass actions to the view
+            ViewData["MonsterActions"] = monsterActions;
+
+
+           
             return View(monster);
         }
 
