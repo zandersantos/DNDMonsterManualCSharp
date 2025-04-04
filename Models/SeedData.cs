@@ -33,10 +33,11 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Models
                     adminUser = new IdentityUser
                     {
                         UserName = adminEmail,
-                        Email = adminEmail
+                        Email = adminEmail,
+                        EmailConfirmed = true
                     };
 
-                    userManager.CreateAsync(adminUser, "AdminPassword1");
+                    var result = userManager.CreateAsync(adminUser, "AdminPassword1").Result;
                     userManager.AddToRoleAsync(adminUser, "Admin");
                 }
 

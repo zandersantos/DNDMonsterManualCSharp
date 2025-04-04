@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
 {
-    [Authorize(Roles = "Admin")]
     public class MonstersController : Controller
     {
         private readonly DungeonsAndDragonsMonsterManualCSharpContext _context;

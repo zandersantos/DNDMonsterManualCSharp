@@ -17,6 +17,16 @@ builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddRoles<IdentityRole>() // Enables role-based authorization
     .AddEntityFrameworkStores<DungeonsAndDragonsMonsterManualCSharpContext>();
 
+//To make the Password Policy to be the bare minimum. This is for testing purposes
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredLength = 6; // Minimum length
+});
+
 var app = builder.Build();
 
 
