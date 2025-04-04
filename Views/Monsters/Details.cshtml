@@ -50,7 +50,11 @@
         <ul>
             @foreach (var action in monsterActions)
             {
-                <li>@action.Name</li>
+                <li>
+                    <a asp-controller="Actions" asp-action="Details" asp-route-id="@action.Id">
+                        @action.Name
+                    </a>
+                </li>
             }
         </ul>
     }
