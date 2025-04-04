@@ -1,3 +1,8 @@
+C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\testhost.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\testhost.exe
@@ -25,7 +30,6 @@ C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDr
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Humanizer.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.ApplicationInsights.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.Build.dll
@@ -34,13 +38,11 @@ C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDr
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
@@ -79,7 +81,6 @@ C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDr
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.Testing.Extensions.MSBuild.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
-C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
@@ -101,7 +102,6 @@ C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDr
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\NuGet.LibraryModel.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\NuGet.Packaging.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\NuGet.ProjectModel.dll
-C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\NuGet.Versioning.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\zainz\Desktop\DNDC#\DungeonsAndDragonsMonsterManualCSharp\DungeonsAndDragonsMonsterManualCSharp\bin\Debug\net8.0\nunit.framework.legacy.dll

@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using DungeonsAndDragonsMonsterManualCSharp.Data;
 using DungeonsAndDragonsMonsterManualCSharp.Models;
 using Microsoft.AspNetCore.Identity;
+using DungeonsAndDragonsMonsterManualCSharp.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DungeonsAndDragonsMonsterManualCSharpContext>(options =>
@@ -14,7 +15,7 @@ builder.Services.AddRazorPages();
 
 //Identity Services
 builder.Services.AddDefaultIdentity<IdentityUser>()
-    .AddRoles<IdentityRole>() // Enables role-based authorization
+    .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<DungeonsAndDragonsMonsterManualCSharpContext>();
 
 //To make the Password Policy to be the bare minimum. This is for testing purposes
@@ -52,12 +53,13 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.MapRazorPages();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapRazorPages();
+
 
 app.Run();
 
