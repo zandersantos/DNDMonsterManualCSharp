@@ -48,8 +48,15 @@ namespace DungeonsAndDragonsMonsterManualCSharp.Controllers
             // Pass actions to the view
             ViewData["MonsterActions"] = monsterActions;
 
+            // Retrieve senses associated with the monster
+            var monsterSenses = await _context.MonsterSense
+                .Where(ms => ms.MonsterId == id)
+                .Select(ms => ms.Sense)
+                .ToListAsync();
 
-           
+            // Pass senses to the view using ViewData
+            ViewData["MonsterSenses"] = monsterSenses;
+
             return View(monster);
         }
 

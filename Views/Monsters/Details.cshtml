@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Details";
     var monsterActions = ViewData["MonsterActions"] as List<DungeonsAndDragonsMonsterManualCSharp.Models.Action>;
+    var monsterSenses = ViewData["MonsterSenses"] as List<DungeonsAndDragonsMonsterManualCSharp.Models.Sense>;
 }
 
 <h1>Details</h1>
@@ -61,6 +62,26 @@
     else
     {
         <p>No actions available for this monster.</p>
+    }
+</div>
+<div>
+    <h4>Senses</h4>
+    @if (monsterSenses != null && monsterSenses.Any())
+    {
+        <ul>
+            @foreach (var sense in monsterSenses)
+            {
+                <li>
+                    <a asp-controller="Senses" asp-action="Details" asp-route-id="@sense.Id">
+                        @sense.SenseType
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No senses available for this monster.</p>
     }
 </div>
 <div>
